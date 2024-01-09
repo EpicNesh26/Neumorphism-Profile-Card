@@ -1,0 +1,154 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #ecf0f3;
+
+}
+
+.wrapper, .wrapper .imge, .social a, .buttons button{
+    background: #ecf0f3;
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #ffffff,
+                 3px 3px 5px #ceced1
+}
+
+.wrapper{
+    padding: 30px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #ecf0f3;
+    border-radius: 10px;
+    box-shadow: -3px -3px 7px #ffffff,
+                 3px 3px 5px #ceced1
+}
+
+.wrapper .imge{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imge .inner{
+    height: calc(100% - 25px);
+    width: calc(100% - 25px);
+    border-radius: 50%;
+}
+
+.inner img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.wrapper .name{
+    font-size: 23px;
+    font-weight: 500;
+    color: #31344b;
+    margin: 10px 0px 5px 0px;
+}
+
+.wrapper .about{
+    font-weight: 400;
+    color: #44476a;
+    font-size: 14px;
+}
+
+.wrapper .social{
+    margin: 15px 0 25px 0;    
+}
+
+.social a{
+    text-decoration: none;
+    height: 40px;
+    width: 40px;
+    display: inline-flex;
+    margin: 0 5px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.social a:hover::before,
+.buttons button:hover::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #ecf0f3;
+    border-radius: 50%  ;
+    box-shadow: inset -3px -3px 7px #ffffff,
+                inset  3px 3px 5px #ceced1;
+}
+
+.buttons button:hover::before{
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.social a i{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    position: relative;
+    z-index: 5 ;
+}
+
+.social a.discord i{
+    color: #7289da;
+}
+.social a.github i{
+    color: #2b3137;
+}
+.social a.envelope i{
+    color: #d44638;
+}
+.social a.insta i{
+    color: #E1306C;
+}
+
+.wrapper .buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.buttons button{
+    position: relative;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 12px 0;
+    font-size: 17px;
+    font-weight: 400;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #31344b;
+    z-index: 4;
+}
+
+.buttons button:first-child{
+    margin-right: 10px;
+}
+.buttons button:last-child{
+    margin-left: 10px;
+}
+
