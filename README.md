@@ -7,6 +7,7 @@ A Neumorphic Profile Card created with HTML, CSS, and JavaScript is a visually s
 # HTML Structure:
 The structure begins with a standard HTML layout, encompassing elements such as a container div to hold the profile card, and nested divs to organize different sections such as the user's avatar, personal information, and social links. Text elements are utilized for displaying the user's name, title, and a brief bio.
 
+https://github.com/EpicNesh26/Neumorphism-Profile-Card/blob/8146dabdbf35589b0701add6bfa679a4c5a6224e/index.html#L31-L46
 
 
 
