@@ -14,6 +14,7 @@ https://github.com/EpicNesh26/Neumorphism-Profile-Card/blob/8146dabdbf35589b0701
 # CSS Styling:
 The CSS file defines the neumorphic styling, incorporating soft shadows, light gradients, and rounded corners. The color palette is carefully chosen to enhance the depth and realism of the design. Subtle hover effects are applied to create an interactive and responsive feel when users interact with the profile card.
 
+https://github.com/EpicNesh26/Neumorphism-Profile-Card/blob/69c4714480f66f9737ab4bd9fc27f88667bcf798/Style.css#L18-L36
 
 
 # JavaScript Interactivity:
