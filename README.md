@@ -19,3 +19,5 @@ https://github.com/EpicNesh26/Neumorphism-Profile-Card/blob/69c4714480f66f9737ab
 
 # JavaScript Interactivity:
 JavaScript is employed to enhance interactivity. For instance, a hover effect may trigger additional animations or display more information. In this example, JavaScript is used to redirect a person to specific pages / sites on clicking the different icons .
+
+https://github.com/EpicNesh26/Neumorphism-Profile-Card/blob/f2aad35c9a0fb02c97dcade798e2d57c00373c16/index.html#L10-L21
